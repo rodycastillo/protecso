@@ -36,14 +36,14 @@ export const CardQuiz = ({ title, questions, children }) => {
   return (
     <div className="bg-prot bg-[url('/img/fondo.png')] w-screen h-screen bg-contain bg-no-repeat bg-center">
       <div className="w-full h-full flex relative justify-center items-center overflow-hidden">
-        <div className="max-w-[90vw] mx-auto">
-          <header className="mb-5">
+        <div className="w-full mx-auto">
+          <header className="mb-5 max-w-[95vw] mx-auto">
             <h2
               className="text-[#65a7da] font-c-regular text-wrap text-center text-2xl"
               dangerouslySetInnerHTML={{ __html: title }}
             ></h2>
           </header>
-          <section className="">
+          <section className="max-w-[60vw] mx-auto">
             <ul
               className="flex flex-col gap-[10px] items-center justify-center"
               id="listQuestions"
