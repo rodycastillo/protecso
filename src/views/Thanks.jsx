@@ -10,7 +10,7 @@ export const Thanks = () => {
   const { setHash } = useContext(AppContext);
 
   const handleClick = () => {
-    // window.open("https://www.linkedin.com/company/protecso-usa/", "_blank");
+    window.open("https://www.linkedin.com/company/protecso-usa/", "_blank");
     setHash(null);
     return navigate("/");
   };
