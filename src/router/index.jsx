@@ -3,6 +3,7 @@ import { Route, Routes, useLocation } from "react-router-dom";
 import { Home } from "../views/Home";
 import { Quiz } from "../views/Quiz";
 import { Thanks } from "../views/Thanks";
+import { Test } from "../views/Test";
 
 import { AnimatePresence } from "framer-motion";
 
@@ -14,6 +15,7 @@ export const RouterApp = () => {
         <Route path="/" exact element={<Home />} />
         <Route path="/quiz" element={<Quiz />} />
         <Route path="/typage" element={<Thanks />} />
+        <Route path="/test" element={<Test />} />
       </Routes>
     </AnimatePresence>
   );

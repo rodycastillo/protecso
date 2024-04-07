@@ -24,24 +24,18 @@
   }
 }
 
-/* @layer base {
+@layer base {
   html {
-    font-family: "EuphemiaCAS", system-ui, sans-serif;
+    /* font-family: "EuphemiaCAS", system-ui, sans-serif;
+     */
   }
-} */
+}
 
 @layer utilities {
   .bg-prot {
     background-position: center;
     background-size: 100% 100%;
   }
-  .activeQuiz {
-    background-color: #719eca;
-  }
-  .activeQuiz > p {
-    color: #fff;
-  }
-
   .font-c-regular {
     font-family: "EuphemiaCAS-Regular", system-ui, sans-serif;
   }
@@ -50,6 +44,49 @@
   }
   strong {
     font-family: "EuphemiaCAS-Bold", system-ui, sans-serif;
+  }
+  .li-c {
+    position: relative;
+    background-color: #e8e8e8;
+    width: 80%;
+    margin: 0 auto;
+    max-width: 550px;
+    padding: 0.5rem 1rem;
+    border-radius: 0.75rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .p-c {
+    text-align: center;
+    font-family: "EuphemiaCAS-Regular", system-ui, sans-serif;
+    color: #12416f;
+    position: relative;
+    pointer-events: none;
+    overflow: hidden;
+  }
+  .span-c {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    margin: auto 0;
+    width: 30px;
+    height: 30px;
+    left: -15px;
+    background-color: #ee5245;
+    border-radius: 10000px;
+    bottom: 0;
+    color: #fff;
+    pointer-events: none;
+    font-family: "EuphemiaCAS-Regular", system-ui, sans-serif;
+  }
+  .activeQuiz {
+    background-color: #719eca;
+  }
+  .activeQuiz > p {
+    color: #fff;
   }
 }
 .justify-custom {

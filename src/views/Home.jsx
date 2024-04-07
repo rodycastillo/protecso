@@ -8,12 +8,12 @@ import { AppContext } from "../context/appContext";
 export const Home = () => {
   const [showHome, setShowHome] = useState(false);
   const navigate = useNavigate();
-  const { setHash } = useContext(AppContext);
+  const { hash, setHash } = useContext(AppContext);
 
   const handleNext = (e) => {
     e.preventDefault();
     const hash_generated = Math.floor(1000000000 + Math.random() * 9000000000);
-    setHash(hash_generated);
+    setHash({ ...hash, value: hash_generated });
     return navigate(`/quiz`);
   };
 
