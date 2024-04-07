@@ -1,0 +1,258 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* @font-face {
+  font-family: "EuphemiaCAS";
+  src: url("/fonts/euphemiacas.ttf") format("truetype");
+} */
+
+@layer base {
+  @font-face {
+    font-family: "EuphemiaCAS-Regular";
+    font-style: normal;
+    /* font-weight: 800; */
+    font-display: swap;
+    src: url("/fonts/euphemiacas.ttf") format("truetype");
+  }
+  @font-face {
+    font-family: "EuphemiaCAS-Bold";
+    font-style: normal;
+    /* font-weight: 800; */
+    font-display: swap;
+    src: url("/fonts/euphemiacas-Bold.ttf") format("truetype");
+  }
+}
+
+/* @layer base {
+  html {
+    font-family: "EuphemiaCAS", system-ui, sans-serif;
+  }
+} */
+
+@layer utilities {
+  .bg-prot {
+    background-position: center;
+    background-size: 100% 100%;
+  }
+  .activeQuiz {
+    background-color: #719eca;
+  }
+  .activeQuiz > p {
+    color: #fff;
+  }
+
+  .font-c-regular {
+    font-family: "EuphemiaCAS-Regular", system-ui, sans-serif;
+  }
+  .font-c-bold {
+    font-family: "EuphemiaCAS-Bold", system-ui, sans-serif;
+  }
+  strong {
+    font-family: "EuphemiaCAS-Bold", system-ui, sans-serif;
+  }
+}
+.justify-custom {
+  justify-content: center;
+}
+
+@media screen and (max-width: 1024px) {
+  .justify-custom {
+    justify-content: space-between;
+  }
+}
+
+@media screen and (max-width: 565px) {
+  .justify-custom {
+    justify-content: center;
+  }
+}
+
+/* ANIMATION */
+
+.bounceIn {
+  animation: bounceIn 0.8s ease-in;
+}
+
+.fadeInDown {
+  animation: fadeInDown 1s ease-in;
+}
+.fadeIn {
+  animation: fadeIn 1s ease-in;
+}
+
+@keyframes bounceIn {
+  from,
+  20%,
+  40%,
+  60%,
+  80%,
+  to {
+    -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+  }
+
+  0% {
+    opacity: 0;
+    -webkit-transform: scale3d(0.3, 0.3, 0.3);
+    transform: scale3d(0.3, 0.3, 0.3);
+  }
+
+  20% {
+    -webkit-transform: scale3d(1.1, 1.1, 1.1);
+    transform: scale3d(1.1, 1.1, 1.1);
+  }
+
+  40% {
+    -webkit-transform: scale3d(0.9, 0.9, 0.9);
+    transform: scale3d(0.9, 0.9, 0.9);
+  }
+
+  60% {
+    opacity: 1;
+    -webkit-transform: scale3d(1.03, 1.03, 1.03);
+    transform: scale3d(1.03, 1.03, 1.03);
+  }
+
+  80% {
+    -webkit-transform: scale3d(0.97, 0.97, 0.97);
+    transform: scale3d(0.97, 0.97, 0.97);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+/* END ANIMATION */
+
+:root {
+  /* font-family: "EuphemiaCAS" sans-serif; */
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  /* font-family: "EuphemiaCAS" sans-serif; */
+  background-color: #fff;
+  min-height: 100vh;
+  min-width: 100vw;
+  color: #242424;
+}
+
+html {
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+ul,
+li {
+  list-style: none outside none;
+  margin: 0;
+  padding: 0;
+}
+dl,
+dd,
+dt {
+  list-style: none outside none;
+  margin: 0;
+  padding: 0;
+}
+table,
+td {
+  border-collapse: collapse;
+  margin: 0;
+  padding: 0;
+}
+img {
+  border: 0 none;
+}
+a,
+a:hover {
+  outline: medium none;
+  text-decoration: none;
+}
+br {
+  clear: both;
+}
+form,
+fieldset {
+  border: 0 none;
+  margin: 0;
+  padding: 0;
+}
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*:after,
+*:before {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}

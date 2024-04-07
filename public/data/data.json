@@ -1,0 +1,205 @@
+[
+  {
+    "id": 1,
+    "title": "¿A QUÉ DENOMINAMOS <strong>DIGITAL TEAMS?</strong>",
+    "questions": [
+      {
+        "value": "A nuestro servicio de Talento especializado en modalidad Outsourcing Ágil para todas tus necesidades de TI.",
+        "id": "A"
+      },
+      { "value": "Equipo de gamers", "id": "B" },
+      { "value": "La mejor delantera", "id": "C" }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "¿QUÉ APORTA NUESTRO CONCEPTO DE <strong>DIGITAL SOLUTIONS?</strong>",
+    "questions": [
+      {
+        "value": "Diseña y construye soluciones de negocios integrales con nuestro enfoque “Business Driven IT”: IA, Lakehouse, Migraciones a la Nube, Plataformas WEB & Mobile, BPM, RPA orientadas a tu negocio y tu sector.",
+        "id": "A"
+      },
+      { "value": "Busca problemas en los correos", "id": "B" },
+      { "value": "Traslada la problemática digital a RRHH", "id": "C" }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "¿QUÉ DIMENSIÓN OFRECE NUESTRO <strong>DIGITAL PRODUCTS?</strong>",
+    "questions": [
+      {
+        "value": "Los mejores productos especializados para cada una de tus necesidades.",
+        "id": "A"
+      },
+      {
+        "value": "Contar con la mayor cantidad de juegos en línea.",
+        "id": "B"
+      },
+      { "value": "Tener la mayor colección de programas.", "id": "C" }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "¿QUÉ SERVICIO DE IA DE AWS TE PERMITE ACCEDER A LA <strong>MAYOR VARIEDAD DE MODELOS</strong> FUNDACIONALES DE MANERA FÁCIL Y SEGURA?",
+    "questions": [
+      { "value": "AWS WaterBed", "id": "A" },
+      { "value": "AWS Bedrock", "id": "B" },
+      { "value": "AWS Bed of Roses", "id": "C" }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "¿QUÉ VENTAJAS OBTIENE UN ADMINISTRADOR DE BASES DE DATOS AL USAR EL <strong>AMAZON RELATIONAL DATABASE SERVICE (RDS)</strong>?",
+    "questions": [
+      {
+        "value": "RDS proporciona 99.99999999999% de confiabilidad y durabilidad.",
+        "id": "A"
+      },
+      {
+        "value": "Las bases de datos RDS se escalan automáticamente según la carga.",
+        "id": "B"
+      },
+      {
+        "value": "RDS simplifica las tareas de administración de bases de datos relacionales.",
+        "id": "C"
+      },
+      { "value": "Todas las anteriores", "id": "D" }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "UNA GRAN EMPRESA ESTÁ INTERESADA EN EVITAR CONTRATOS A LARGO PLAZO Y PASAR DE COSTOS FIJOS A COSTOS VARIABLES. ¿CUÁL ES LA <strong>PROPUESTA DE VALOR DE AWS</strong> PARA ESTA EMPRESA?",
+    "questions": [
+      {
+        "value": "Economías de escala",
+        "id": "A"
+      },
+      {
+        "value": "Precios de pago por uso",
+        "id": "B"
+      },
+      {
+        "value": "Descuentos por volumen",
+        "id": "C"
+      },
+      { "value": "Optimización automática de costos", "id": "D" },
+      { "value": "Todas las anteriores", "id": "E" }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "¿CUÁL ES LA NUBE MÁS MADURA Y <strong>LÍDER POR 12 AÑOS CONSECUTIVOS</strong> SEGÚN EL MAGIC QUADRANT DE GARTNER?",
+    "questions": [
+      {
+        "value": "Un datacenter de una telco",
+        "id": "A"
+      },
+      {
+        "value": "Huawei",
+        "id": "B"
+      },
+      {
+        "value": "Amazon Web Services - AWS",
+        "id": "C"
+      },
+      { "value": "Azure", "id": "D" }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "¿CUÁL ES LA CARACTERÍSTICA <strong>CLAVE DE AWS</strong> EN COSTOS?",
+    "questions": [
+      {
+        "value": "Modelo de pago por uso",
+        "id": "A"
+      },
+      {
+        "value": "Contratos a largo plazo",
+        "id": "B"
+      },
+      {
+        "value": "Costos fijos mensuales",
+        "id": "C"
+      },
+      { "value": "Tarifas de soporte técnico adicionales", "id": "D" }
+    ]
+  },
+  {
+    "id": 9,
+    "title": "¿CUÁL ES UN CASO DE USO COMÚN PARA <strong>AMAZON TEXTRACT</strong>?",
+    "questions": [
+      {
+        "value": "Importar documentos y formularios a aplicaciones empresariales.",
+        "id": "A"
+      },
+      {
+        "value": "Crear índices de búsqueda inteligente.",
+        "id": "B"
+      },
+      {
+        "value": "Construir flujos de trabajo automatizados para el procesamiento de documentos.",
+        "id": "C"
+      },
+      {
+        "value": "Garantizar el cumplimiento de la normativa en el archivado de documentos.",
+        "id": "D"
+      },
+      {
+        "value": "Todas las anteriores",
+        "id": "E"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "title": "¿CUÁL ES UN CASO DE USO COMÚN PARA <strong>AMAZON COMPREHEND</strong>?",
+    "questions": [
+      {
+        "value": "Minado de los análisis del centro de llamadas y empresarial.",
+        "id": "A"
+      },
+      {
+        "value": "Indexación y búsqueda de opiniones de productos.",
+        "id": "B"
+      },
+      {
+        "value": "Administración de enfoques legales.",
+        "id": "C"
+      },
+      {
+        "value": "Procesamiento de los documentos financieros.",
+        "id": "D"
+      },
+      {
+        "value": "Todas las anteriores",
+        "id": "E"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "title": "¿CUÁL ES UN CASO DE USO COMÚN PARA <strong>AMAZON REKOGNITION</strong>?",
+    "questions": [
+      {
+        "value": "Detección del contenido inapropiado.",
+        "id": "A"
+      },
+      {
+        "value": "Verificación de la identidad en línea.",
+        "id": "B"
+      },
+      {
+        "value": "Optimización del análisis del contenido multimedia.",
+        "id": "C"
+      },
+      {
+        "value": "Envío de alertas inteligentes del hogar conectado.",
+        "id": "D"
+      },
+      {
+        "value": "Todas las anteriores",
+        "id": "E"
+      }
+    ]
+  }
+]
