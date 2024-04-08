@@ -57,7 +57,7 @@ export const Home = () => {
               <h1 className="fadeInDown text-center text-[#12416f] text-[50px] leading-[52px] font-c-bold mb-4">
                 <span className="text-[#ee5345]">Digital</span> <br /> Partner
               </h1>
-              <p className="fadeIn text-center text-[#12416f] text-sm mb-6 font-c-regular px-2">
+              <p className="fadeIn text-center text-[#12416f] text-sm mb-6 font-c-regular px-2 text-wrap">
                 descubriendo con estás preguntas la dimensión de nuestros
                 servicios que te ayudarán en tu Transformación Digital y
                 adopción de Inteligencia Artificial

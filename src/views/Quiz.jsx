@@ -88,7 +88,7 @@ export const Quiz = () => {
       <button
         onClick={(e) => handleNextQuestion(e)}
         id="btnAction"
-        className="absolute top-[50%] h-10 w-10 right-[3%]"
+        className="h-10 w-10 btn-c"
       >
         <img
           className="w-full h-full object-fill object-center"
