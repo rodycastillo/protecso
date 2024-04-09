@@ -7,7 +7,7 @@ import Bicycle from "/img/Bicycle.png";
 
 export const Thanks = () => {
   const navigate = useNavigate();
-  const { setHash } = useContext(AppContext);
+  const { hash, setHash } = useContext(AppContext);
 
   const handleClick = () => {
     window.open("https://www.linkedin.com/company/protecso-usa/", "_blank");
@@ -16,6 +16,7 @@ export const Thanks = () => {
   };
 
   useEffect(() => {
+    if (!hash.value) return navigate("/");
     confetti({
       particleCount: 100,
       spread: 70,
@@ -26,7 +27,7 @@ export const Thanks = () => {
   return (
     <div className="bg-prot bg-[url('/img/fondo.png')] w-screen h-screen bg-contain bg-no-repeat bg-center">
       <div className="w-full h-full flex justify-center items-center">
-        <div className="flex items-center gap-5  justify-custom max-w-[78vw] w-full flex-wrap">
+        <div className="flex items-center gap-5  justify-custom max-w-[78vh] w-full flex-wrap">
           <div className="w-fit text-center">
             <h2 className="text-[#ee5345] font-c-bold text-3xl mb-5">
               FELICITACIONES

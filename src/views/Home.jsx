@@ -54,7 +54,7 @@ export const Home = () => {
               <span className="fadeInDown block text-center font-c-regular text-[#12416f] mb-1 text-xl">
                 Conviértete en un
               </span>
-              <h1 className="fadeInDown text-center text-[#12416f] text-[50px] leading-[52px] font-c-bold mb-4">
+              <h1 className="fadeInDown text-center w-fit text-[#12416f] text-[50px] leading-[52px] font-c-bold mb-4">
                 <span className="text-[#ee5345]">Digital</span> <br /> Partner
               </h1>
               <p className="fadeIn text-center text-[#12416f] text-sm mb-6 font-c-regular px-2 text-wrap">
@@ -64,7 +64,7 @@ export const Home = () => {
               </p>
               <button
                 onClick={handleNext}
-                className="fadeIn uppercase w-[110px] h-[35px] flex items-center justify-center font-c-bold text-white rounded-md bg-[#65a7da] "
+                className="fadeIn uppercase w-[110px] h-[35px] flex items-center justify-center font-c-bold text-white rounded-md bg-[#65a7da] text-center"
               >
                 <span className="text-[16px] leading-[16px] mt-[-4px]">
                   Comenzar

@@ -48,7 +48,7 @@ export const Quiz = () => {
         item.classList.contains("activeQuiz")
       );
       if (!isSomeActive) return;
-      wrapper.style.transform = `translateY(-100vh)`;
+      wrapper.style.transform = `translateY(-100vw)`;
       wrapper.style.transition = "all 1s";
       setStep(2);
     } else if (step === 2) {
@@ -57,7 +57,7 @@ export const Quiz = () => {
         item.classList.contains("activeQuiz")
       );
       if (!isSomeActive) return;
-      wrapper.style.transform = `translateY(-200vh)`;
+      wrapper.style.transform = `translateY(-200vw)`;
       wrapper.style.transition = "all 1s";
       setStep(3);
     } else if (step === 3) {
@@ -77,8 +77,8 @@ export const Quiz = () => {
   }, []);
 
   return (
-    <div className="flex flex-col w-screen h-screen overflow-hidden relative">
-      <div className="w-screen flex flex-col" id="wrapper-questions">
+    <div className="flex flex-col w-full h-full overflow-hidden relative">
+      <div className="w-full flex flex-col" id="wrapper-questions">
         {arr.map((component, i) => (
           <div key={i} id={`component-${i + 1}`}>
             {component}
